@@ -21,7 +21,7 @@ I believe a user persona detail can help determine the user experience beforehan
 
 ## Setup
 In Console run:
-1. ```git clone git@github.com:percworld/news.git'''
+1. ```git clone https://github.com/percworld/news.git```
 2. ```npm i```
 3. ```npm start```
 
