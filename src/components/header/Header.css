@@ -1,12 +1,13 @@
 
 .App-header {
-  background-color: #282c34;  
-  flex-direction: column;
+  background-color: #A04668;  
+  display: flex;
   align-items: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(14px + 2vmin);
   color: white;
+  font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 .radio {
-  width: 9em;
+  width: 3em;
 }

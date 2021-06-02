@@ -4,3 +4,24 @@
 const key = "nHdVgcjsCd1kcuGOVGLuvbpQwQNGyq5a";
 const baseUrl = "https://api.nytimes.com/svc/topstories/v2/";
 
+const checkResponse = (response) => {
+  if (!response.ok) {
+    throw new Error('The articles aren\'t currently available.');
+  } else {
+    return response.json();
+  }
+}
+
+const getArticle = id => {
+  return fetch(`${baseUrl}`)
+    .then(checkResponse);
+}
+const getArticles = category => {
+  return fetch(`${baseUrl}`)
+    .then(checkResponse);
+}
+const getAllArticles = () => {
+  return fetch(`${baseUrl}`)
+    .then(checkResponse);
+}
+export { getArticle, getArticles };
