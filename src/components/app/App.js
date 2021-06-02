@@ -1,12 +1,19 @@
 
 import './App.css';
+import Header from '../header/Header';
+import Tagbar from '../tagbar/Tagbar';
+import Footer from '../footer/Footer';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
+    <div className="App page-container">
+      <div className="content-wrap">
+      <Header></Header>
       
-        
-       
+      <Footer></Footer>
+      </div>
         
       
     </div>

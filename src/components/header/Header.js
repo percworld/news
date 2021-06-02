@@ -1,11 +1,13 @@
 import './Header.css';
 import React from 'react';
 import logo from './logo.svg';
+import { ReactComponent as Radio } from './radio.svg';
 
 const Header = () => {
   return (
-    <header>
-      <img src={logo} className="App-logo" alt="logo" />
+    <header className="App-header">
+      <Radio className='radio'></Radio>
+      
     </header>
   )
 }

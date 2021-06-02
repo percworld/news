@@ -1,12 +1,8 @@
 .App {
-  text-align: center;
+  
 }
 
 
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -15,4 +11,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }

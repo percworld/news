@@ -3,14 +3,18 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <div className="footer">
 
-    </a>
+      <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      Github Link
+
+      </a>
+    </div>
   )
 }
 
