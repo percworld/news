@@ -9,22 +9,24 @@
   /* margin-left: 2vw; */
   display: inline-flex;
   flex-direction: column;
-  width: 70vw;
+  width: 74vw;
+  background-color: #AB4967;
+  color: #D9D0DE;
+  width: [object Object]px; 
+	height: [object Object]px; 
+	border: solid #D9D0DE 2px; 
+	box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
+	-webkit-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
+	-moz-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
 
 
 }
 .stories {
   text-decoration: underline;
+  text-align:center;
 }
  .scroll-mauve {
    /* overflow-y: scroll; */
-   background-color: #AB4967;
+   
  }
 
- .tags-container {
-   background-color: #AB4967;
-   display: inline-flex;
-   flex-direction: column;
-   justify-content: center;
-   width: 20vw;
- }

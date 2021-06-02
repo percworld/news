@@ -4,6 +4,7 @@ import propTypes from 'prop-types';
 import Tagbar from '../tagbar/Tagbar';
 
 const Articles = ({setArticle, categories, setCategories}) => {
+  //handle set / create func for map
   return (
     <div className="dashboard-container">
       <section className="stories-container">

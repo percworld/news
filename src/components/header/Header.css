@@ -1,10 +1,10 @@
 
 .App-header {
   background-color: #A04668;  
+  color: #D9D0DE;
   display: flex;
   align-items: center;
   font-size: calc(14px + 2vmin);
-  color: white;
   font-family: 'ZCOOL KuaiLe', cursive;
 }
 
