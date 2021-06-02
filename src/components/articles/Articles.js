@@ -6,9 +6,9 @@ import Tagbar from '../tagbar/Tagbar';
 const Articles = ({setArticle, categories, setCategories}) => {
   return (
     <div className="dashboard-container">
-      <section className="mauve-container">
+      <section className="stories-container">
         <div className="scroll-mauve">
-          TOP STORIES:
+          <p className="stories">TOP STORIES:</p>
         </div>
       </section>
       <Tagbar categories={categories} setCategories={setCategories}></Tagbar>

@@ -1,0 +1,21 @@
+.tags-container {
+   background-color: #AB4967;
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 17vw;
+   text-align: center;
+ }
+
+.choose-sections {
+  text-decoration: underline;
+}
+
+.tag-container {
+  width: 70%;
+  margin: 1vh;
+  
+  background-color: #0C1713;
+  color: #D9D0DE;
+}
