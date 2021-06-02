@@ -3,7 +3,6 @@ import './App.css';
 
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
-import Tagbar from '../tagbar/Tagbar';
 import Articles from '../articles/Articles';
 import Article from '../article/Article';
 import { Route, Switch } from 'react-router-dom';
@@ -15,7 +14,8 @@ class App extends React.Component {
     super();
     this.state = {
       articles: [],
-      article: {}
+      article: {},
+      categories: []
     }
   }
 
@@ -23,7 +23,9 @@ class App extends React.Component {
     // get.then
   }
 
-  
+  setCategories = (categories) => {
+    this.setState({ categories: categories })
+  }
 
   setArticle = article => {
     this.setState({ article: article });

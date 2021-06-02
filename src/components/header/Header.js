@@ -1,6 +1,6 @@
 import './Header.css';
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import { ReactComponent as Radio } from './radio.svg';
 
 const Header = () => {

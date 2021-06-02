@@ -1,8 +1,9 @@
 import './Articles.css';
 import React from 'react';
 import propTypes from 'prop-types';
+import Tagbar from '../tagbar/Tagbar';
 
-const Articles = ({setArticle, categories}) => {
+const Articles = ({setArticle, categories, setCategories}) => {
   return (
     <div className="dashboard-container">
       <section className="mauve-container">
@@ -10,9 +11,7 @@ const Articles = ({setArticle, categories}) => {
           TOP STORIES:
         </div>
       </section>
-      <div className="tags-container">
-        <p>Filter by category:</p>
-      </div>
+      <Tagbar categories={categories} setCategories={setCategories}></Tagbar>
     </div>
   )
 }
