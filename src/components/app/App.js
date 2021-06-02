@@ -5,9 +5,10 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import Tagbar from '../tagbar/Tagbar';
 import Articles from '../articles/Articles';
+import Article from '../article/Article';
 import { Route, Switch } from 'react-router-dom';
 import React from 'react';
-import { getArticle } from '../../apiCalls'
+import { getArticles } from '../../apiCalls'
 
 class App extends React.Component {
   constructor() {
@@ -24,8 +25,7 @@ class App extends React.Component {
 
   
 
-  setArticle = async (id) => {
-    const article = await getArticle(id);
+  setArticle = article => {
     this.setState({ article: article });
   }
 
@@ -36,7 +36,8 @@ class App extends React.Component {
         <div className="content-wrap">
         <Header></Header>
         <Switch>
-          <Route exact path="/" render={() => (<Articles articles={this.state.articles}/>)}></Route>
+          <Route exact path="/" render={() => (<Articles articles={this.state.articles} setArticle={this.setArticle}/>)}></Route>
+          <Route path="/article" render={() => (<Article article={this.state.article} />)}></Route>
         </Switch>
         
         <Footer></Footer>
