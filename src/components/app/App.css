@@ -1,0 +1,28 @@
+.App {
+ background-color: #BC8D80;
+ font-family: 'Cairo', sans-serif;
+}
+
+/* lav: D9D0DE
+pink: BC8DA0
+rose: A04668
+mauve: AB4967
+black: 0C1713 */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
