@@ -10,10 +10,10 @@ const Article = ({ article }) => {
   return (
     <div className="article-container">
       <article className="article-single">
-        <Link to="/" id="arrow-container">
+        <Link to="/" id="arrow-container" data-cy="back">
           <BackArrow className="back-arrow"></BackArrow>
         </Link>
-        <p id="title">{title}</p>
+        <p id="title" data-cy="single-title">{title}</p>
         <p id="author">{byline}</p>
         <p id="date">Published {formatDate(created_date)}
           <span id="date"> - {section} {subsection} news</span>

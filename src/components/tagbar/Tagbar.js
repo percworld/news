@@ -25,7 +25,7 @@ const Tagbar = ({ categories, setCategories }) => {
     }
 
     return (
-      <div className={`tag-container ${isActive ? "active" : ""}`} key={section} id={section} onClick={() => handleClick(section)}>
+      <div className={`tag-container ${isActive ? "active" : ""}`} key={section} id={section} onClick={() => handleClick(section)} data-cy="tag">
         {section}
       </div>
     )

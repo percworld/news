@@ -15,7 +15,7 @@ const Articles = ({articles, setArticle, categories, setCategories}) => {
 
   const articlesToDisplay = articles.map((article, index) => {
     return (
-      <Link to="/article" className="article-container" key={index} onClick={() => handleClick(article)}>       
+      <Link to="/article" className="article-container" key={index} onClick={() => handleClick(article)} data-cy="article-title">       
           <img className="small-image" src={article.multimedia[1].url} alt={article.multimedia[1].caption}></img>
           {article.title}        
       </Link>
