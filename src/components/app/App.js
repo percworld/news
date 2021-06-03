@@ -20,7 +20,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    // get.then
+    getArticles('home')
+      .then(articles => this.setState({ articles: articles.results }))
   }
 
   setCategories = (categories) => {
@@ -38,7 +39,11 @@ class App extends React.Component {
         <div className="content-wrap">
         <Header></Header>
         <Switch>
-          <Route exact path="/" render={() => (<Articles articles={this.state.articles} setArticle={this.setArticle}/>)}></Route>
+          <Route exact path="/" render={() => (<Articles 
+            articles={this.state.articles} setArticle={this.setArticle}
+            categories={this.state.categories} setCategories={this.setCategories}
+            />)}>
+          </Route>
           <Route path="/article" render={() => (<Article article={this.state.article} />)}></Route>
         </Switch>
         

@@ -12,7 +12,7 @@ const Tagbar = ({ categories, setCategories }) => {
   })
   return (
     <div className="tags-container">
-      <p className="choose-sections">Choose Sections:</p>
+      <p className="choose-sections">CHOOSE SECTIONS:</p>
       {tags}
     </div>
   )
