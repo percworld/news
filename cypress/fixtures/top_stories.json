@@ -1,0 +1,250 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2021 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2021-06-03T12:52:49-04:00",
+  "num_results": 58,
+  "results": [
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "See Which States Are Falling Behind Biden’s Vaccination Goal",
+      "abstract": "Even as the country is on track to reach the president's national target — at least 70 percent of adults with one dose by July 4 — 30 states probably will not.",
+      "url": "https://www.nytimes.com/interactive/2021/06/03/us/virus-vaccine-states.html",
+      "uri": "nyt://interactive/04471554-53d1-5d47-8a76-6bc6e06c1ba9",
+      "byline": "By Lazaro Gamio and Amy Schoenfeld Walker",
+      "item_type": "Interactive",
+      "updated_date": "2021-06-03T07:20:18-04:00",
+      "created_date": "2021-06-03T05:00:03-04:00",
+      "published_date": "2021-06-03T05:00:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coronavirus (2019-nCoV)",
+        "Vaccination and Immunization",
+        "Disease Rates"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/virus-vaccine-states-promo-1622686043343/virus-vaccine-states-promo-1622686043343-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1331,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/virus-vaccine-states-promo-1622686043343/virus-vaccine-states-promo-1622686043343-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/virus-vaccine-states-promo-1622686043343/virus-vaccine-states-promo-1622686043343-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/virus-vaccine-states-promo-1622686043343/virus-vaccine-states-promo-1622686043343-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/virus-vaccine-states-promo-1622686043343/virus-vaccine-states-promo-1622686043343-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Migrants Are Forgotten in Italy’s Vaccine Drive, Doctors Say",
+      "abstract": "A temporary ID number is supposed to give the undocumented some access to health care, but that’s not how it’s working for coronavirus vaccines.",
+      "url": "https://www.nytimes.com/2021/06/03/world/europe/italy-covid-vaccines-migrants.html",
+      "uri": "nyt://article/acd82999-d38b-5f71-ad11-7eec46f6469b",
+      "byline": "By Emma Bubola",
+      "item_type": "Article",
+      "updated_date": "2021-06-03T10:53:04-04:00",
+      "created_date": "2021-06-03T10:53:04-04:00",
+      "published_date": "2021-06-03T10:53:04-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Immigration and Emigration",
+        "Vaccination and Immunization"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Emilia-Romagna (Italy)",
+        "Italy"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/05/28/multimedia/00virus-italy-undocumented2/merlin_187807728_2a4f1fd9-2727-4f66-8987-9ba93f4af05f-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1363,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waiting to be vaccinated against Covid-19 at a pop-up site at the Termini train station in Rome earlier this month.",
+          "copyright": "Claudio Peri/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/05/28/multimedia/00virus-italy-undocumented2/00virus-italy-undocumented2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waiting to be vaccinated against Covid-19 at a pop-up site at the Termini train station in Rome earlier this month.",
+          "copyright": "Claudio Peri/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/05/28/multimedia/00virus-italy-undocumented2/00virus-italy-undocumented2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waiting to be vaccinated against Covid-19 at a pop-up site at the Termini train station in Rome earlier this month.",
+          "copyright": "Claudio Peri/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/05/28/multimedia/00virus-italy-undocumented2/00virus-italy-undocumented2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waiting to be vaccinated against Covid-19 at a pop-up site at the Termini train station in Rome earlier this month.",
+          "copyright": "Claudio Peri/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/05/28/multimedia/00virus-italy-undocumented2/merlin_187807728_2a4f1fd9-2727-4f66-8987-9ba93f4af05f-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Waiting to be vaccinated against Covid-19 at a pop-up site at the Termini train station in Rome earlier this month.",
+          "copyright": "Claudio Peri/EPA, via Shutterstock"
+        }
+      ],
+      "short_url": "https://nyti.ms/3fOEM6c"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Colleges Say Students Must Get a Covid Vaccine. But No, Not That One.",
+      "abstract": "Vaccine requirements were designed mostly for American students. That is presenting hurdles for many international students without access to one of the eight vaccines approved by the W.H.O.",
+      "url": "https://www.nytimes.com/2021/06/03/us/international-students-vaccination-covid.html",
+      "uri": "nyt://article/a278095f-2c71-512e-bb49-ecfa37929475",
+      "byline": "By Rukmini Callimachi",
+      "item_type": "Article",
+      "updated_date": "2021-06-03T11:29:52-04:00",
+      "created_date": "2021-06-03T11:29:52-04:00",
+      "published_date": "2021-06-03T11:29:52-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Colleges and Universities",
+        "Vaccination and Immunization",
+        "Coronavirus (2019-nCoV)",
+        "Foreign Students (in US)"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention",
+        "Food and Drug Administration",
+        "World Health Organization"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "India"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/00virus-internationalstudents/merlin_186160818_98c4d151-02f7-4d9b-8838-25958b16df00-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A nurse preparing a dose of a coronavirus vaccine in New Delhi. International students are struggling to meet the vaccination requirements of U.S. universities before the fall semester.",
+          "copyright": "Rebecca Conway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/00virus-internationalstudents/merlin_186160818_98c4d151-02f7-4d9b-8838-25958b16df00-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A nurse preparing a dose of a coronavirus vaccine in New Delhi. International students are struggling to meet the vaccination requirements of U.S. universities before the fall semester.",
+          "copyright": "Rebecca Conway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/00virus-internationalstudents/merlin_186160818_98c4d151-02f7-4d9b-8838-25958b16df00-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A nurse preparing a dose of a coronavirus vaccine in New Delhi. International students are struggling to meet the vaccination requirements of U.S. universities before the fall semester.",
+          "copyright": "Rebecca Conway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/00virus-internationalstudents/merlin_186160818_98c4d151-02f7-4d9b-8838-25958b16df00-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A nurse preparing a dose of a coronavirus vaccine in New Delhi. International students are struggling to meet the vaccination requirements of U.S. universities before the fall semester.",
+          "copyright": "Rebecca Conway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2021/06/02/us/00virus-internationalstudents/merlin_186160818_98c4d151-02f7-4d9b-8838-25958b16df00-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A nurse preparing a dose of a coronavirus vaccine in New Delhi. International students are struggling to meet the vaccination requirements of U.S. universities before the fall semester.",
+          "copyright": "Rebecca Conway for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ccC7RW"
+    }
+  ]
+}

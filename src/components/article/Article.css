@@ -25,4 +25,9 @@
 
 .back-arrow {
   width: 2em;
+  margin-top: .5em;
+}
+
+#arrow-container {
+  height: .75em;
 }

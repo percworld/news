@@ -10,7 +10,7 @@ const Article = ({ article }) => {
   return (
     <div className="article-container">
       <article className="article-single">
-        <Link to="/">
+        <Link to="/" id="arrow-container">
           <BackArrow className="back-arrow"></BackArrow>
         </Link>
         <p id="title">{title}</p>

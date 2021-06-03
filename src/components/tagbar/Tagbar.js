@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 const Tagbar = ({ categories, setCategories }) => {
   const [clicked, setClicked] = useState([]); 
-  const [active, setActive] = useState('');
+  const [isActive, setIsActive] = useState(false);
   
   const sections = ["all", "arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
   const handleClick = section => {
@@ -18,14 +18,14 @@ const Tagbar = ({ categories, setCategories }) => {
       setCategories(clicked);
     }
   };
-
+  
   const tags = sections.map(section => {
     if (clicked.includes(section)) {
-      //setActive('active')
+      //setIsActive(true)
     }
 
     return (
-      <div className={`tag-container ${active}`} key={section} id={section} onClick={() => handleClick(section)}>
+      <div className={`tag-container ${isActive ? "active" : ""}`} key={section} id={section} onClick={() => handleClick(section)}>
         {section}
       </div>
     )

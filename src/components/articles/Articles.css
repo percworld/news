@@ -49,4 +49,5 @@
 .small-image {
   width: 29px;
   margin-right: .5em;
+  max-height: 29px;
 }

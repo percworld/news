@@ -49,7 +49,7 @@ const Articles = ({articles, setArticle, categories, setCategories}) => {
 
 export default Articles;
 
-Articles.propTypes = {
+Articles.propTypes = {  // !isRequired
   setArticle: propTypes.func,
   categories: propTypes.array
 }
