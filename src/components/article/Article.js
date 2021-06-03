@@ -1,13 +1,18 @@
 import './Article.css';
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import propTypes from 'prop-types';
-import { formatDate } from '../../utilities'
+import { formatDate } from '../../utilities';
+import { ReactComponent as BackArrow } from './back-arrow.svg';
 
 const Article = ({ article }) => {
   const { title, byline, created_date, section, subsection, abstract, url, multimedia } = article;
   return (
     <div className="article-container">
       <article className="article-single">
+        <Link to="/">
+          <BackArrow className="back-arrow"></BackArrow>
+        </Link>
         <p id="title">{title}</p>
         <p id="author">{byline}</p>
         <p id="date">Published {formatDate(created_date)}
