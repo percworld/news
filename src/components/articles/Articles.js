@@ -4,17 +4,20 @@ import propTypes from 'prop-types';
 import Tagbar from '../tagbar/Tagbar';
 
 const Articles = ({articles, setArticle, categories, setCategories}) => {
-  //handle click article set / create func for map
+  const handleClick = (e) => {
+    setArticle(e.target.value)
+  };
+
   const articlesToDisplay = articles.map((article, index) => {
-    console.log(articles[0])
     return (
-      <div className="article-container" key={article.updated_date}>
+      <div className="article-container" key={article.updated_date} value={article} onClick={(e) => handleClick(e)}>
         <div className="article">
-          {article.created_date}
+          {article.title}
         </div>
       </div>
     )
-  }) 
+  });
+
   return (
     <div className="dashboard-container">
       <section className="stories-container">
@@ -25,7 +28,7 @@ const Articles = ({articles, setArticle, categories, setCategories}) => {
       </section>
       <Tagbar categories={categories} setCategories={setCategories}></Tagbar>
     </div>
-  )
+  );
 }
 
 export default Articles;
