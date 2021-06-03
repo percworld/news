@@ -2,9 +2,10 @@
    background-color: #AB4967;
    display: inline-flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
-   width: 17vw;
+   max-height: 70vh; 
+   width: 12rem;
    text-align: center;
    width: [object Object]px; 
 	height: [object Object]px; 
@@ -12,19 +13,21 @@
 	box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
 	-webkit-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
 	-moz-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
+  overflow-y: scroll;
+  margin-left: .5em;
  }
 
 .choose-sections {
   text-decoration: underline;
   color: #D9D0DE;
+  margin: 0;
+  margin-top: .75em;
   
 }
 
 .tag-container {
   width: 70%;
   margin: 1vh;
-  
-  background-color: #0C1713;
   color: #D9D0DE;
   width: [object Object]px; 
 	height: [object Object]px; 
@@ -33,4 +36,11 @@
 	box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
 	-webkit-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
 	-moz-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
+  
+}
+
+.active {
+  background: #D9D0DE;
+	color: #472D47; 
+	border: solid #472D47 2px; 
 }

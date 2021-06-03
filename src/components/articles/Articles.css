@@ -22,6 +22,8 @@
 .stories {
   text-decoration: underline;
   text-align:center;
+  margin: 0;
+  margin-top: .5em;
 }
  .scroll-mauve {
    overflow-y: scroll;  
@@ -43,4 +45,9 @@
 
 .article {
   /* color:#D9D0DE; */
+}
+.small-image {
+  width: 29px;
+  margin-right: .5em;
+  max-height: 29px;
 }

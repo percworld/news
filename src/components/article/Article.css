@@ -22,3 +22,12 @@
   width: 75%;
   height: 25%;
 }
+
+.back-arrow {
+  width: 2em;
+  margin-top: .5em;
+}
+
+#arrow-container {
+  height: .75em;
+}
