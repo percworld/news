@@ -1,20 +1,19 @@
 import './Articles.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import propTypes from 'prop-types';
 import Tagbar from '../tagbar/Tagbar';
 
 const Articles = ({articles, setArticle, categories, setCategories}) => {
-  const handleClick = (e) => {
-    setArticle(e.target.value)
+  const handleClick = (article) => {
+    setArticle(article);
   };
 
   const articlesToDisplay = articles.map((article, index) => {
     return (
-      <div className="article-container" key={article.updated_date} value={article} onClick={(e) => handleClick(e)}>
-        <div className="article">
-          {article.title}
-        </div>
-      </div>
+      <Link to="/article" className="article-container" key={article.updated_date} onClick={() => handleClick(article)}>       
+          {article.title}        
+      </Link>
     )
   });
 
@@ -23,7 +22,7 @@ const Articles = ({articles, setArticle, categories, setCategories}) => {
       <section className="stories-container">
         <p className="stories">TOP STORIES:</p>
         <div className="scroll-mauve">
-         {articlesToDisplay} 
+         {articles.length ? articlesToDisplay : <p>Loading Articles...</p>} 
         </div>
       </section>
       <Tagbar categories={categories} setCategories={setCategories}></Tagbar>

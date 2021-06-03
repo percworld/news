@@ -4,16 +4,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer">
-
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      Github Link
-
-      </a>
+      <a href="https://github.com/percworld" className='details-link' target='_blank' rel='noreferrer'>Chuck Morris Github Profile</a>
     </div>
   )
 }
