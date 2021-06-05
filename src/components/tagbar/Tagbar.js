@@ -2,35 +2,35 @@ import './Tagbar.css';
 import React, { useState, useEffect } from 'react';
 
 
-const Tagbar = ({ categories, setCategories }) => {
-  const [clicked, setClicked] = useState([]); 
-  const [isActive, setIsActive] = useState(false);
+const Tagbar = ({ categories, setCategories, updateArticles }) => {
+  const [isActive, setIsActive] = useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, ]);
+  const sections = ["home", "arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
   
-  const sections = ["all", "arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
-  const handleClick = section => {
-    if (clicked.includes(section)) {
-      const tempClicked = clicked;
-      tempClicked.splice(tempClicked.indexOf(section), 1);
-      setClicked(tempClicked);
-      setCategories(tempClicked);
-    } else {
-      setClicked([section, ...clicked]);
-      setCategories(clicked);
-    }
+  const handleClick = async (section) => {
+    const index = sections.indexOf(section);
+    const tempActive = isActive;
+    tempActive[index] = !tempActive[index];
+    setIsActive(tempActive)
+    await setCategories([section])
   };
-  
-  const tags = sections.map(section => {
-    if (clicked.includes(section)) {
-      //setIsActive(true)
-    }
 
+  const getClass = activeTag => {
     return (
-      <div className={`tag-container ${isActive ? "active" : ""}`} key={section} id={section} onClick={() => handleClick(section)} data-cy="tag">
-        {section}
-      </div>
+      activeTag && "active"
+      )
+    }
+  const tags = sections.map((section, index) => {   
+    return (
+      <div className={`tag-container ${getClass(isActive[index])}`} key={section} id={section} onClick={() => handleClick(section)} data-cy="tag">
+      {section}
+    </div>
     )
   });
 
+  useEffect(() => {
+    categories.length && updateArticles(categories)
+  },[categories]) 
+  
   return (
     <div className="tags-container">
       <p className="choose-sections">CHOOSE SECTIONS:</p>
