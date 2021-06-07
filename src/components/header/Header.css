@@ -6,8 +6,10 @@
   align-items: center;
   font-size: calc(14px + 2vmin);
   font-family: 'ZCOOL KuaiLe', cursive;
+  margin: 0;
+  height: 9vh;
 }
 
 .radio {
-  width: 3em;
+  width: 2.2em;
 }

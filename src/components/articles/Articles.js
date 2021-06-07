@@ -22,7 +22,7 @@ const Articles = ({articles, setArticle, categories, setCategories, updateArticl
     <div className="dashboard-container">
       <section className="stories-container">
         <p className="stories">TOP STORIES:</p>
-        <div className="scroll-mauve">
+        <div className="story-container">
           {articles.length ? articlesToDisplay : <p>Loading Articles...</p>}
         </div>
       </section>
@@ -33,7 +33,10 @@ const Articles = ({articles, setArticle, categories, setCategories, updateArticl
 
 export default Articles;
 
-Articles.propTypes = {  // !isRequired
-  setArticle: propTypes.func,
-  categories: propTypes.array
+Articles.propTypes = { 
+  articles: propTypes.array.isRequired,
+  setArticle: propTypes.func.isRequired,
+  categories: propTypes.array.isRequired,
+  setCategories: propTypes.func.isRequired,
+  updateArticles: propTypes.func.isRequired
 }
