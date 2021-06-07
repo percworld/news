@@ -1,6 +1,4 @@
-
 import './App.css';
-
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import Articles from '../articles/Articles';
@@ -25,7 +23,6 @@ class App extends React.Component {
   }
 
   updateArticles = categories => {
-    console.log(this.state.categories[0])
     getArticles(this.state.categories[0])
       .then(articles => this.setState({ articles: articles.results }))
   } 
