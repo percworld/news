@@ -1,6 +1,4 @@
-
 import './App.css';
-
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import Articles from '../articles/Articles';
@@ -24,6 +22,11 @@ class App extends React.Component {
       .then(articles => this.setState({ articles: articles.results }))
   }
 
+  updateArticles = categories => {
+    getArticles(this.state.categories[0])
+      .then(articles => this.setState({ articles: articles.results }))
+  } 
+
   setCategories = (categories) => {
     this.setState({ categories: categories })
   }
@@ -42,6 +45,7 @@ class App extends React.Component {
           <Route exact path="/" render={() => (<Articles 
             articles={this.state.articles} setArticle={this.setArticle}
             categories={this.state.categories} setCategories={this.setCategories}
+            updateArticles={this.updateArticles}
             />)}>
           </Route>
           <Route path="/article" render={() => (<Article article={this.state.article} />)}></Route>

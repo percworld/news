@@ -4,33 +4,40 @@
   justify-content: space-between;
 }
 .stories-container {
-  max-height: 70vh;
-  display: inline-flex;
-  flex-direction: column;
+  /* max-height: 75vh; */
   width: 79vw;
   background-color: #AB4967;
   color: #D9D0DE;
-  width: [object Object]px; 
-	height: [object Object]px; 
 	border: solid #D9D0DE 2px; 
 	box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
 	-webkit-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
-	-moz-box-shadow: 3px 5px 12px rgba(70, 143, 163, 0.3)  ; 
-
-
+  position: relative;
+  flex-direction: column;
+  overflow-y: auto;  
 }
+
+.story-container {
+  position: absolute;
+  display: flex; 
+  flex-wrap: wrap;
+  /* flex-direction: row-wrap; */
+}
+
+.story-container > * {
+  flex: 1 1 8em;
+}
+
 .stories {
   text-decoration: underline;
   text-align:center;
   margin: 0;
   margin-top: .5em;
 }
- .scroll-mauve {
-   overflow-y: scroll;  
- }
+ 
 
  .article-container {
   display: flex;
+  flex-direction: column;
   color: #D9D0DE;
 	background: #472D47; 
 	border: solid #D9D0DE 2px; 
@@ -41,13 +48,29 @@
   padding-left: .5em;
   padding-right: .5em;
   text-decoration: none;
+  font-size: 13px;
  }
 
 .article {
   /* color:#D9D0DE; */
 }
 .small-image {
-  width: 29px;
-  margin-right: .5em;
-  max-height: 29px;
+  display: block;
+  width: 94px;
+  height: 74px;
+  margin-top: .5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .article-container {
+    font-size: 11px;
+  }
+  .small-image {
+    width: 82px;
+  }
+  .dashboard-container {
+    padding: .5em;
+  }
 }
